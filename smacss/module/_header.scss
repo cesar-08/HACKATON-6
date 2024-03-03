@@ -1,0 +1,40 @@
+.container {
+	width: 80%;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    border-bottom: solid 1px #e2e8f0;
+}
+
+
+
+
+.class-icon {
+    text-decoration: none;
+    
+}
+
+.img-icon {
+    width: 25px;
+	
+}
+
+.icon {
+	display: inline;
+    padding-left: 20px;
+}
+
+.space-right {
+    padding-right: 30px;
+}

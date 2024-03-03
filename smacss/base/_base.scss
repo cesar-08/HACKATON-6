@@ -1,0 +1,30 @@
+//Aqui van las bases de la web como el reseteo del css.
+
+@import './normalize';
+
+body {
+	background-color: #fff;
+	color: #121212;
+
+	font-family: "Inter", sans-serif;
+}
+
+.inter {
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:
+	  "slnt" 0;
+  }
+
+  .inter-600 {
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+	  "slnt" 0;
+  }
+
+$first-color: red;

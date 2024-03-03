@@ -1,0 +1,6 @@
+//Aqui van esquemas o estructuras de la web
+
+.SectionViews {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}

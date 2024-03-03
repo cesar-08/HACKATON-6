@@ -1,0 +1,79 @@
+.container-3 {
+	width: 80%;
+	
+	padding: 20px;
+	margin: 0 auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.main-header .container-3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+    
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 29%;
+    border: solid 1px #e2e8f0;
+    border-radius: 10px;
+    padding: 0px 20px 5px 20px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+.card-name {
+    font-size: 18px;
+    font-family: "Inter";
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.align-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-porcent {
+    color: #5B6776;
+    
+}
+
+.card-text {
+   
+        font-size: 12px;
+        font-family: "Inter";
+        font-weight: 400;
+        margin-top: 10px;
+        color: #79808A;
+    }
+
+    .card-price {
+        font-size: 18px;
+        font-family: "Inter";
+        font-weight: 500;
+        margin-top: 10px;
+        color: #4F46E5;
+        margin-bottom: 5px;
+    }
+
+    .card-gray {
+        font-size: 12px;
+       
+        color: #B8B6F7;
+    }
+
+    .barra{
+        margin-top: 0px;
+
+    }
+
+
