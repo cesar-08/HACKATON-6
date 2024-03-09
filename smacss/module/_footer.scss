@@ -57,21 +57,21 @@
 @media  (max-width: 375px) {
 
     .container-4 {
-        width: 94%;
-        
-        margin-left: 10px;
+        width: 90%;
+        margin-left: 20px;
     }
 
        
     .footer {
-       
         height: 100px;
-       
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .d-block-m {
        
-        display: block;
+        display: inline-block;
        
     }
     .t-sm-none {
@@ -82,7 +82,8 @@
 
     .img-footer {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 0px;
+        padding-right: 10px;
     }
         
     }
