@@ -29,11 +29,18 @@
     margin-bottom: 20px;
 }
 
+.card-info:hover {
+    
+    box-shadow: 5px 6px 5px 0px rgba(64,62,62,0.19);
+
+}
+
 .card-name {
     font-size: 18px;
     font-family: "Inter";
     font-weight: 600;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .align-card {
@@ -77,3 +84,26 @@
     }
 
 
+    @media  (max-width: 375px) {
+
+       
+        .main-header .container-3 {
+            display: block;
+            
+        }
+
+        .container-3 {
+            width: 100%;
+            
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .card-info {
+            
+            width: 82.5%;
+            margin-bottom: 10px;
+            
+        }
+
+    }

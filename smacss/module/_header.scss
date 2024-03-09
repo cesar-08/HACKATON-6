@@ -17,6 +17,10 @@
     border-bottom: solid 1px #e2e8f0;
 }
 
+.mh-logo {
+	cursor: pointer;
+}
+
 
 
 
@@ -37,4 +41,27 @@
 
 .space-right {
     padding-right: 30px;
+}
+
+.mh-logo-mobile {
+	display: none;
+}
+
+
+
+
+@media  (max-width: 375px) {
+
+	.container {
+		width: 90%;
+		
+	}
+
+	.mh-logo {
+		display: none;
+	}
+
+	.mh-logo-mobile {
+		display: block;
+	}
 }
